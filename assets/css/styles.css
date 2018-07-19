@@ -1,26 +1,27 @@
 head{
-    background-color: antiquewhite
+    background-color: white
 }
 
 body{
-background: black
+background:black
 }
+
 title{
 color: Blue;
 
 }
-p1 {
-    size: 50px;
-    color: bisque
-}
-p2 {
-    size: 50px;
-    color: bisque
-}
-h1 {
-    size: 100px;
-    width: 5px;
-    color: blue
-    
 
+h1 {
+    size: 200px;
+    margin: auto;
+    width: 300px;
+    padding: 100px;
+    color: blue 
+    
+}
+p {
+    size: 80px;
+    color: bisque;
+    margin: auto;
+    width: 300px
 }
