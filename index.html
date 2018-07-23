@@ -5,22 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>The Psychic Game</title>
     <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
-    <script type="text/javascript" src="assets/image/javascript.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  
+    
+    <script type="text/javascript"src="assets/image/javascript.js"></script>
     
 </head>
 <body>
+    <div id="game" class = jumbotron>
+    
+        <h1 class="display-4">HangMan Game</h1>
+        <p class="lead">Guest what letter I am thinking of...</p>
+        <hr class="my-4">
+        <p>Wins:<span id="win"></span></p>
+        <p>Loses:<span id="lose"></span></p>
+        <p>Guesses Left:<span id="left"></span></p>
+        <p>Your Guesses so Far:<span id="soFar"></span></p>
+      </div>
+    
+   
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
-    <div id="game">
-            <h1>HangMan Game</h1>
-            <p>Guest what letter I am thinking of...</p>
-            <p>Wins:<span id="win"></span></p>
-            <p>Loses:<span id="lose"></span></p>
-            <p>Guesses Left:<span id="left"></span></p>
-            <p>Your Guesses so Far:<span id="soFar"></span></p>
-
-    </div>
 </body>
 </html>
-<script type="text/javascript"
+
